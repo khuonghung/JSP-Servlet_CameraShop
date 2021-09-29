@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+    <decorator name="web" page="/decorators/web/web.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+
+    <decorator name="load" page="">
+        <pattern>/load*</pattern>
+    </decorator>
+    <decorator name="admin" page="/decorators/admin/admin.jsp">
+        <pattern>/admin*</pattern>
+    </decorator>
+    <decorator name="account" page="/decorators/account/account.jsp">
+        <pattern>/signup</pattern>
+        <pattern>/signin</pattern>
+        <pattern>/forgot-password</pattern>
+        <pattern>/reset-password</pattern>
+        <pattern>/account*</pattern>
+    </decorator>
+</decorators>
