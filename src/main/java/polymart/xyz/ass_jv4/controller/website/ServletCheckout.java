@@ -208,7 +208,7 @@ public class ServletCheckout extends HttpServlet {
                         request.getRequestDispatcher("/views/website/page/cart/qrCode.jsp").forward(request, response);
                         return;
                     } else {
-                        String vnp_Version = "2.0.0";
+                        String vnp_Version = "2.1.0";
                         String vnp_Command = "pay";
                         String vnp_OrderInfo = "Thanh toan don hang test";
                         String orderType = "billpayment";
